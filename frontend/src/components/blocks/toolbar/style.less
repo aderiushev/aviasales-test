@@ -1,0 +1,22 @@
+@import "../../../theme/variables.less";
+
+.Toolbar {
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  display: inline-flex;
+  border-radius: 6px;
+
+  &__item + &__item {
+    border-left: 1px solid #D9D9D9;
+  }
+
+  &__item {
+    cursor: pointer;
+    padding: 8px 16px;
+
+    &_selected {
+      background-color: #2196F3;
+      color: #fff;
+    }
+  }
+}

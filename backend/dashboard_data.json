@@ -1,0 +1,159 @@
+{
+  "errors": {
+    "last_3_days": {
+      "code": [
+        {
+          "count": 2,
+          "code": 502
+        },
+        {
+          "count": 720,
+          "code": 599
+        },
+        {
+          "count": 1780,
+          "code": null
+        }
+      ],
+      "type": {
+        "error": {
+          "total": 0.143953287057117,
+          "average": 0.133953287057117
+        },
+        "zeroes": {
+          "total": 5.55262854787825,
+          "average": 4.55262854787825
+        },
+        "timeout": {
+          "total": 0.122851836321131,
+          "average": 0.112851836321131
+        }
+      }
+    },
+    "yesterday": {
+      "code": [
+        {
+          "count": 615,
+          "code": null
+        },
+        {
+          "count": 305,
+          "code": 599
+        }
+      ],
+      "type": {
+        "error": {
+          "total": 0.376232384954177,
+          "average": 0.276232384954177
+        },
+        "zeroes": {
+          "total": 5.03052033295241,
+          "average": 4.03052033295241
+        },
+        "timeout": {
+          "total": 0.217542189065684,
+          "average": 0.117542189065684
+        }
+      }
+    },
+    "today": {
+      "code": [
+        {
+          "count": 2,
+          "code": 500
+        },
+        {
+          "count": 4,
+          "code": 599
+        },
+        {
+          "count": 3,
+          "code": 501
+        },
+        {
+          "count": 6,
+          "code": 502
+        }
+      ],
+      "type": {
+        "error": {
+          "total": 0.076232384954177,
+          "average": 0.066232384954177
+        },
+        "zeroes": {
+          "total": 1.03052033295241,
+          "average": 1.02052033295241
+        },
+        "timeout": {
+          "total": 0.017542189065684,
+          "average": 0.016542189065684
+        }
+      }
+    },
+    "last_hour": {
+      "code": [],
+      "type": {
+        "error": {
+          "total": null,
+          "average": null
+        },
+        "zeroes": {
+          "total": null,
+          "average": null
+        },
+        "timeout": {
+          "total": null,
+          "average": null
+        }
+      }
+    }
+  },
+  "stats": {
+    "last_3_days": {
+      "avg_price": 10694.8964067661,
+      "bookings_current": 7556,
+      "bookings_previous": 8647,
+      "searches_current": 4445192,
+      "searches_previous": 6118984,
+      "clicks_current": 50207,
+      "clicks_previous": 60505,
+      "str": 15.0496942657398,
+      "ctr": 1.12946752356254,
+      "web_traffic": 70,
+      "mobile_traffic": 95
+    },
+    "yesterday": {
+      "avg_price": 9447.87135852322,
+      "bookings_current": 3465,
+      "bookings_previous": 3641,
+      "searches_current": 2188541,
+      "searches_previous": 2050500,
+      "clicks_previous": 23364,
+      "clicks_current": 23210,
+      "str": 14.9289099526066,
+      "ctr": 1.06052388326287,
+      "web_traffic": 100,
+      "mobile_traffic": 100
+    },
+    "today": {
+
+    },
+    "last_hour": {
+      "avg_price": 10243.0263157895,
+      "clicks_current": 428,
+      "clicks_previous": 784,
+      "bookings_current": 32,
+      "bookings_previous": 98,
+      "searches_previous": 88385,
+      "searches_current": 66815,
+      "str": null,
+      "ctr": 0.640574721245229,
+      "web_traffic": 65,
+      "mobile_traffic": 85
+    },
+
+    "mobile_pessimizer": 0.000999999974737875,
+    "web_pessimizer": 100.0,
+    "gate_id": 20
+  }
+}

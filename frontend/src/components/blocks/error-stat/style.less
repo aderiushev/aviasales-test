@@ -1,0 +1,78 @@
+@import "../../../theme/variables.less";
+
+.ErrorStat {
+  &__common {
+
+  }
+
+  &__line {
+    margin-top: 16px;
+  }
+
+  &__count {
+    margin-top: 20px;
+  }
+}
+
+.CommonStat {
+  display: flex;
+}
+
+.CommonStatItem {
+  display: flex;
+  flex: 1;
+
+  &__icon {
+    margin-right: 8px;
+  }
+}
+
+.CommonStatContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  &__subtitle {
+    display: flex;
+    font-size: 12px;
+    color: #A0B0B9;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+}
+
+.LineStat {
+  display: flex;
+
+  &__item {
+    height: 8px;
+    background-color: #A0B0B9;
+  }
+}
+
+.CountStat {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+
+  &__item + &__item {
+    margin-left: 30px;
+  }
+}
+
+.CountStatItem {
+  display: flex;
+  align-items: center;
+
+  i {
+    margin-right: 4px;
+  }
+}
