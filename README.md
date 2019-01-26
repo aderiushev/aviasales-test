@@ -1,7 +1,10 @@
 # Aviasales System Dashboard
 
-## Quick Demo
+## Quick demo
 ![Demo](https://github.com/hutsi/aviasales-test/blob/master/demo.gif)
+
+## Task description
+https://github.com/KosyanMedia/test-tasks/tree/feature/gates_fullstack_test/gates_team_fullstack
 
 ## Requirements
 
