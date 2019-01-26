@@ -9,7 +9,7 @@
 
 ## Installation
 
-1. git clone git@github.com:hutsi/aviasales-test.git
+1. `git clone git@github.com:hutsi/aviasales-test.git`
 2. cd aviasales-test
 3. cd backend
 4. pipenv install
