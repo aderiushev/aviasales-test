@@ -1,7 +1,7 @@
 # Aviasales System Dashboard
 
 ## Quick Demo
-![Demo](https://github.com/hutsi/aviasales-test/demo.gif)
+![Demo](https://github.com/hutsi/aviasales-test/blob/master/demo.gif)
 
 ## Requirements
 
