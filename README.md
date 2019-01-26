@@ -17,14 +17,15 @@ https://github.com/KosyanMedia/test-tasks/tree/feature/gates_fullstack_test/gate
 
 Clone the repo `git clone git@github.com:hutsi/aviasales-test.git`
 
-Setting up the backend assume we are at project's root):
+### Setting up the backend assume we are at project's root):
 
-1.`cd backend`
-2.`pipenv install`
-3.`pipenv shell`
-4.`FLASK_APP=server.py flask run` (make sure server is running on http://127.0.0.1:5000)  
+1. `cd backend`
+2. `pipenv install`
+3. `pipenv shell`
+4. `FLASK_APP=server.py flask run` (make sure server is running on http://127.0.0.1:5000)  
 
-Setting up the backend (assume we are at project's root):
+
+### Setting up the backend (assume we are at project's root):
 
 1. `cd frontend`
 2. `npm i`
